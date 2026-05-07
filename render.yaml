@@ -7,7 +7,7 @@ services:
     autoDeployTrigger: commit
     dockerfilePath: ./Dockerfile
     dockerContext: .
-    healthCheckPath: /
+    healthCheckPath: /_stcore/health
     envVars:
       - key: PORT
         value: 8501
