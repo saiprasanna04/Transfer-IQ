@@ -6,7 +6,7 @@ The project combines feature engineering, time-series learning, ensemble modelin
 
 ## Live Demo
 
-- Live app: [https://transferiq-production.up.railway.app]
+- Live app: https://transfer-iq-6lsy.onrender.com/
 
 
 ## Project Objective
