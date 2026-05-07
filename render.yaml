@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: transfer-iq
+    runtime: docker
+    plan: free
+    branch: main
+    autoDeployTrigger: commit
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /
+    envVars:
+      - key: PORT
+        value: 8501
